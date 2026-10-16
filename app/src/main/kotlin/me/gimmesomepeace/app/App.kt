@@ -7,6 +7,8 @@ import kotlin.coroutines.cancellation.CancellationException
 
 fun main() {
     println("Hello")
+
+    println("more lines")
 }
 
 fun CoroutineScope.launchSafe(
