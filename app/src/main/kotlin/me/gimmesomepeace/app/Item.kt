@@ -4,5 +4,6 @@ import java.util.UUID
 
 data class Item(
     val id: UUID,
-    val title: String
+    val title: String,
+    val count: Int,
 )
