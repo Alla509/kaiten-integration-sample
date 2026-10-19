@@ -9,6 +9,12 @@ fun main() {
     println("Hello")
 
     println("more lines")
+
+    val scope = CoroutineScope(context = Dispatchers.Main)
+
+    scope.launch {
+        println("asdfsd")
+    }
 }
 
 fun CoroutineScope.launchSafe(
