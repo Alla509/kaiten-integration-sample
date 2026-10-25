@@ -15,5 +15,6 @@ plugins {
 }
 
 include(":app")
+include(":algorithms")
 
 rootProject.name = "laboratory"
